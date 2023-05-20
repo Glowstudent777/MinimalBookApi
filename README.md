@@ -21,7 +21,7 @@ dotnet build
 ```
 
 ## The Database
-I use a free (PlanetScale)[https://planetscale.com/] database for testing, other mysql databases might work.
+I use a free [PlanetScale](https://planetscale.com/) database for testing, other mysql databases might work.
 In the `MinimalBookApi` folder of the project is a file called `appsettings.json` open it and fill in the mysql server details
 ```json
   "ConnectionStrings": {
